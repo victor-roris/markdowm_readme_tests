@@ -25,11 +25,10 @@ In this project I test some MARKDOWN syntax in GITHUB website. The idea is test 
 
  - Standard HTML with size tags
 ```markdown
-<img width=""150" height="150" src="https://avatars.githubusercontent.com/u/33596234?v=4"
+<img width="150" height="150" src="https://avatars.githubusercontent.com/u/33596234?v=4"
      alt="URL image" />
 ```
-<img width=""150" height="150" src="https://avatars.githubusercontent.com/u/33596234?v=4"
-     alt="URL image" />
+<img width="150" height="150" src="https://avatars.githubusercontent.com/u/33596234?v=4" alt="URL image" />
      
      
  - Wrapper HTML with style
@@ -185,10 +184,28 @@ In this project I test some MARKDOWN syntax in GITHUB website. The idea is test 
  - HTML
 ```markdown
 <kbd>
-<img width="150" height="150" src="assets/victor_roris.jpg"
-     alt="URL image" />
+<img width="150" height="150" src="assets/victor_roris.jpg" alt="URL image" />
 </kbd>
 ```
 <kbd>
   <img width="150" height="150" src="assets/victor_roris.jpg" alt="URL image" />
 </kbd>
+
+### Clickable image
+
+ - Markdown 
+```markdown
+[![clickable image](assets/victor_roris.jpg "Image Title")*Victor M Alonso-Roris*][https://www.linkedin.com/in/victor-roris/]
+```
+[![clickable image](assets/victor_roris.jpg "Image Title")*Victor*][https://www.linkedin.com/in/victor-roris/]
+
+
+ - HTML
+```markdown
+<a href="https://www.linkedin.com/in/victor-roris/">
+  <img width="150" height="150" src="assets/victor_roris.jpg" alt="URL image" />
+</a>
+```
+<a href="https://www.linkedin.com/in/victor-roris/">
+  <img width="150" height="150" src="assets/victor_roris.jpg" alt="URL image" />
+</a>
