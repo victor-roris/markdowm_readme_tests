@@ -49,17 +49,22 @@ In this project I test some MARKDOWN syntax in GITHUB website. The idea is test 
  - Centered HTML 
 ```markdown
 <div style="text-align:center">
-    <img src="https://avatars.githubusercontent.com/u/33596234?v=4"
-         alt="URL image"
-         style="width: 150px; height: 150px; border: 1px solid black;" />
+    <img width="150" height="150" 
+         src="https://avatars.githubusercontent.com/u/33596234?v=4" alt="URL image" />
 </div>
 ```
 
 <div style="text-align:center">
-    <img src="https://avatars.githubusercontent.com/u/33596234?v=4"
-         alt="URL image"
-         style="width: 150px; height: 150px; border: 1px solid black;" />
+    <img width="150" height="150" src="https://avatars.githubusercontent.com/u/33596234?v=4" alt="URL image" />
 </div>
+
+```markdown
+<img align="right" height="244" 
+     src="https://avatars.githubusercontent.com/u/33596234?v=4" 
+     alt="URL image" title="URL image">
+```
+
+<img align="right" height="244" src="https://avatars.githubusercontent.com/u/33596234?v=4" alt="URL image" title="URL image">
 
 
 ### Relative image 
@@ -185,17 +190,19 @@ In this project I test some MARKDOWN syntax in GITHUB website. The idea is test 
 
  - Markdown 
 ```markdown
-[![clickable image](assets/victor_roris.jpg "Image Title")*Victor*](https://www.linkedin.com/in/victor-roris/)
+[![clickable image](assets/victor_roris.jpg "Image Title")](https://www.linkedin.com/in/victor-roris/)
 ```
-[![clickable image](assets/victor_roris.jpg "Image Title")*Victor*](https://www.linkedin.com/in/victor-roris/)
+[![clickable image](assets/victor_roris.jpg "Image Title")](https://www.linkedin.com/in/victor-roris/)
 
 
  - HTML
 ```markdown
-<a href="https://www.linkedin.com/in/victor-roris/">
-  <img width="150" height="150" src="assets/victor_roris.jpg" alt="URL image" />
+<a href="https://www.linkedin.com/in/victor-roris/"  target="_blank">
+  <img width="150" height="150" align="center" src="assets/victor_roris.jpg" alt="URL image" />
 </a>
 ```
-<a href="https://www.linkedin.com/in/victor-roris/">
-  <img width="150" height="150" src="assets/victor_roris.jpg" alt="URL image" />
+
+<a href="https://www.linkedin.com/in/victor-roris/"  target="_blank">
+  <img width="150" height="150" align="center" src="assets/victor_roris.jpg" alt="URL image" />
 </a>
+
