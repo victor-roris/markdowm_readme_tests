@@ -119,10 +119,10 @@ In this project I test some MARKDOWN syntax in GITHUB website. The idea is test 
 
  - HTML with size tags
 ```markdown
-<img width=""150" height="150" src="assets/victor_roris.jpg"
+<img width="150" height="150" src="assets/victor_roris.jpg"
      alt="URL image" />
 ```
-<img width=""150" height="150" src="assets/victor_roris.jpg"
+<img width="150" height="150" src="assets/victor_roris.jpg"
      alt="URL image" />
  
 ### Internal Relative image 
@@ -141,31 +141,21 @@ In this project I test some MARKDOWN syntax in GITHUB website. The idea is test 
 
  - HTML 
 ```markdown
-<div style="text-align:center">
-    <img src="src/assets/victor_roris.jpg"
-         alt="URL image"
-         style="width: 150px; height: 150px; border: 1px solid black;" />
-</div>
+<img width="150" height="150" src="src/assets/victor_roris.jpg"
+     alt="URL image" />
 ```
-<div style="text-align:center">
-    <img src="src/assets/victor_roris.jpg"
-         alt="URL image"
-         style="width: 150px; height: 150px; border: 1px solid black;" />
-</div>
+
+<img width="150" height="150" src="src/assets/victor_roris.jpg"
+     alt="URL image" />
 
 
 ```markdown
-<div style="text-align:center">
-    <img src="src/internal_module/assets/victor_roris.jpeg"
-         alt="URL image"
-         style="width: 150px; height: 150px; border: 1px solid black;" />
-</div>
+
+<img width="150" height="150" src="src/internal_module/assets/victor_roris.jpeg"
+     alt="URL image" />
 ```
-<div style="text-align:center">
-    <img src="src/internal_module/assets/victor_roris.jpeg"
-         alt="URL image"
-         style="width: 150px; height: 150px; border: 1px solid black;" />
-</div>
+<img width="150" height="150" src="src/internal_module/assets/victor_roris.jpeg"
+     alt="URL image" />
 
 
 ### Border in image
@@ -195,9 +185,9 @@ In this project I test some MARKDOWN syntax in GITHUB website. The idea is test 
 
  - Markdown 
 ```markdown
-[![clickable image](assets/victor_roris.jpg "Image Title")*Victor M Alonso-Roris*][https://www.linkedin.com/in/victor-roris/]
+[![clickable image](assets/victor_roris.jpg "Image Title")*Victor*](https://www.linkedin.com/in/victor-roris/)
 ```
-[![clickable image](assets/victor_roris.jpg "Image Title")*Victor*][https://www.linkedin.com/in/victor-roris/]
+[![clickable image](assets/victor_roris.jpg "Image Title")*Victor*](https://www.linkedin.com/in/victor-roris/)
 
 
  - HTML
