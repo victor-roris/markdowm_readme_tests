@@ -1,5 +1,5 @@
 # Markdowm Readme Tests
-In this project I test some MARKDOWN sitaxis in GITHUB website. 
+In this project I test some MARKDOWN syntax in GITHUB website. The idea is test (and take note) what works and what doesn't work.
 
 ## Image tests
 
@@ -22,6 +22,15 @@ In this project I test some MARKDOWN sitaxis in GITHUB website.
      alt="URL image"
      style="width: 150px; height: 150px; border: 1px solid black;" />
 
+
+ - Standard HTML with size tags
+```markdown
+<img width=""150" height="150" src="https://avatars.githubusercontent.com/u/33596234?v=4"
+     alt="URL image" />
+```
+<img width=""150" height="150" src="https://avatars.githubusercontent.com/u/33596234?v=4"
+     alt="URL image" />
+     
      
  - Wrapper HTML with style
 ```markdown
@@ -107,6 +116,15 @@ In this project I test some MARKDOWN sitaxis in GITHUB website.
          alt="URL image"
          style="width: 150px; height: 150px; border: 1px solid black;" />
 </div>
+
+
+ - HTML with size tags
+```markdown
+<img width=""150" height="150" src="assets/victor_roris.jpg"
+     alt="URL image" />
+```
+<img width=""150" height="150" src="assets/victor_roris.jpg"
+     alt="URL image" />
  
 ### Internal Relative image 
 
@@ -149,3 +167,28 @@ In this project I test some MARKDOWN sitaxis in GITHUB website.
          alt="URL image"
          style="width: 150px; height: 150px; border: 1px solid black;" />
 </div>
+
+
+### Border in image
+
+
+ - Plain markdown 
+```markdown
+<kbd>
+  ![relative image](assets/victor_roris.jpg "Image title")
+</kbd>
+```
+<kbd>
+  ![relative image](assets/victor_roris.jpg "Image title")
+</kbd>
+
+ - HTML
+```markdown
+<kbd>
+<img width="150" height="150" src="assets/victor_roris.jpg"
+     alt="URL image" />
+</kbd>
+```
+<kbd>
+  <img width="150" height="150" src="assets/victor_roris.jpg" alt="URL image" />
+</kbd>
